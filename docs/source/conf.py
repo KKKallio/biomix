@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'BIOmix'
+copyright = '2026, Kallio'
+author = 'Kallio'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.0.1'
+version = '0.0.1'
 
 # -- General configuration
 
