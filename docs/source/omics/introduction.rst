@@ -6,8 +6,7 @@ Introduction
 Methods of omics
 ==============================================
 
-Cellular function is often framed by **central dogma**: ``DNA ⇌ RNA → Protein``. DNA and RNA are polymers of nucleotides, and proteins are polymers of amino acids; in each case, **sequence** constrains higher-order structure and biological function. In addition, metabolites, produced or consumed by enzymatic reactions, reflect the physiological state of a cell and can regulate gene expression and protein activity through signaling and feedback mechanisms. These molecular layers interact in complex, dynamic networks to maintain homeostasis.
-
+Cellular function is often framed by **central dogma**: ``DNA ⇌ RNA → Protein``. DNA and RNA are polymers of nucleotides, and proteins are polymers of amino acids. **sequence** constrains higher-order structure and biological function. In addition, ``metabolites``, produced or consumed by enzymatic reactions, reflect the physiological state of a cell and can regulate gene expression and protein activity through signaling and feedback mechanisms. These molecular layers interact in complex, dynamic networks to maintain homeostasis.
 
 **Omics** collectively refers to experimental approaches that characterize these molecular layers on a large scale—such as **genomics**, **transcriptomics**,
 **proteomics**, and **metabolomics**. Each omic layer captures a distinct aspect of molecular biology, and together they provide a comprehensive understanding of how biological systems function.
@@ -18,7 +17,7 @@ Core principles of omics
 
 Omics measurements require analytical methods that can detect, identify, and quantify biomolecules reproducibly across many features and samples. Most modern omics platforms rely on three broad measurement principles: probe-based recognition, sequencing, and spectrometry.
 
-(1). Probe-based recognition
+(1) Probe-based recognition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Probe-based recognition** detect molecules through specific **molecular recognition**.
