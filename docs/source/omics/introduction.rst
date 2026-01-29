@@ -2,10 +2,6 @@
 Introduction
 ############
 
-==============================================
-Methods of omics
-==============================================
-
 Cellular function is often framed by **central dogma**: ``DNA ⇌ RNA → Protein``. DNA and RNA are polymers of nucleotides, and proteins are polymers of amino acids. **sequence** constrains higher-order structure and biological function. In addition, ``metabolites``, produced or consumed by enzymatic reactions, reflect the physiological state of a cell and can regulate gene expression and protein activity through signaling and feedback mechanisms. These molecular layers interact in complex, dynamic networks to maintain homeostasis.
 
 **Omics** collectively refers to experimental approaches that characterize these molecular layers on a large scale—such as **genomics**, **transcriptomics**,
