@@ -61,9 +61,9 @@ To capture both single cell information and spatial organization, single-cell an
 
 Physical separation methods isolate individual cells or specific tissue regions before molecular profiling.
 
-- Single cells can be manually picked using a **micropipette** or sorted automatically using **fluorescence-activated cell sorting(FACS)**, which separates cells based on fluorescent markers. (eg. palte-based protocol such as smart-seq)
+- Single cells can be manually picked using a `micropipette` or sorted automatically using `fluorescence-activated cell sorting (FACS)`, which separates cells based on fluorescent markers. (eg. palte-based protocol such as smart-seq)
 
-- For spatially defined sampling, **laser microdissection(LMD)** is used to precisely cut and collect cells or regions from tissue sections under a microscope. (eg. Nanostring GeoMx)
+- For spatially defined sampling, `laser microdissection (LMD)` is used to precisely cut and collect cells or regions from tissue sections under a microscope. (eg. Nanostring GeoMx)
 
 (2) Single-cell and spatial indexing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
