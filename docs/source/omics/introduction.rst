@@ -18,9 +18,9 @@ Omics measurements require analytical methods that can detect, identify, and qua
 
 **Probe-based recognition** detect molecules through specific **molecular recognition**.
 
-- **Nuclei acid hybridization**
+**Nuclei acid hybridization**
    DNA or RNA molecules can bind to complementary sequences. This principle is used in southern, northern blotting, and fluorescence in situ hybridization (FISH).
-- **Protein affinity recognization**
+**Protein affinity recognization**
    Proteins are often detected by antibodies that recognize specific targets. Examples include western blotting and ELISA, and imaging methods such as immunofluorescence (IF).
 
 These concepts scale to high throughput in **microarrays** (e.g., expression arrays, SNP arrays, DNA methylation arrays) and many **spatial omics** platforms that use large sets of probes to label molecules in tissues.
