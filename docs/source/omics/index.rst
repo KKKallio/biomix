@@ -1,5 +1,5 @@
 ############
-Introduction
+Omics
 ############
 
 .. toctree::
