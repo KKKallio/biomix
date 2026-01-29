@@ -90,7 +90,7 @@ Over the past several decades, omics have progressed to comprehensive, high-thro
 Classical methods (e.g., blotting and sanger sequencing) quantify a limited number of targets per experiment, whereas modern platforms can profile thousands to millions of features in parallel.
 
 - From **bulk** to **single-cell/subcellular** resolution:
-Bulk assays report population averages. Single-cell and spatial omics revealcelluar heterogeneity in gene expression, chromatin accessibility, protein abundance, and sometimes metabolites, enabling identification of rare populations and spatial microenvironments.
+Bulk assays report population averages. Single-cell and spatial omics reveal celluar heterogeneity in gene expression, chromatin accessibility, protein abundance, and sometimes metabolites, enabling identification of rare populations and spatial microenvironments.
 
 - From **single omics** to **multi-omics**:
 Combining modalities (e.g., scRNA-seq with ATAC-seq; paired transcriptome–proteome measurements) links regulatory layers and improves mechanistic interpretation by connecting genotype, regulation, and phenotype.
