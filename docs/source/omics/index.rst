@@ -4,3 +4,4 @@ Omics
 
 .. toctree::
    introduction
+   transcriptomics
