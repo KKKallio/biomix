@@ -3,104 +3,104 @@ Introduction
 ############
 
 ==============================================
-Methods of Omics Technologies
+Methods of omics
 ==============================================
 
-Cellular function is often framed by **Central Dogma**: ``DNA ⇌ RNA → Protein``. These biopolymers are specific sequences of nucleotides or amino acids whose order determines structure and function. They interact in complex, dynamic networks to maintain homeostasis, with ``metabolites`` serving as products of metabolism and feeding back to regulate gene expression and protein activity.
+Cellular function is often framed by **central dogma**: ``DNA ⇌ RNA → Protein``. DNA and RNA are polymers of nucleotides, and proteins are polymers of amino acids; in each case, **sequence** constrains higher-order structure and biological function. In addition, metabolites, produced or consumed by enzymatic reactions, reflect the physiological state of a cell and can regulate gene expression and protein activity through signaling and feedback mechanisms. These molecular layers interact in complex, dynamic networks to maintain homeostasis.
+
 
 **Omics** collectively refers to experimental approaches that characterize these molecular layers on a large scale—such as **genomics**, **transcriptomics**,
 **proteomics**, and **metabolomics**. Each omic layer captures a distinct aspect of molecular biology, and together they provide a comprehensive understanding of how biological systems function.
 
 ----------------------------------------------
-Core Principles of Omics Technologies
+Core principles of omics
 ----------------------------------------------
 
-Understanding biomolecules requires analytical methods that can detect, identify, and quantify them with precision. Modern omics technologies are built upon several core methods including **probe-based recognition**, **sequencing**, and **spectrometry**.
+Omics measurements require analytical methods that can detect, identify, and quantify biomolecules reproducibly across many features and samples. Most modern omics platforms rely on three broad measurement principles: probe-based recognition, sequencing, and spectrometry.
 
-(1). Probe-based Methods
+(1). Probe-based recognition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Probe-based methods** detect molecules through specific **binding interactions**.
+**Probe-based recognition** detect molecules through specific **molecular recognition**.
 
-- **Hybridization:**
-  DNA or RNA molecules can bind to complementary sequences. This principle is used in Southern, Northern blots, and FISH (Fluorescence In Situ Hybridization).
-- **Protein affinity:**
-  Proteins are often detected by antibodies that recognize specific targets. Examples include Western blots and ELISA, and imaging methods such as
-  IF (ImmunoFluorescence).
+- **Nuclei acid hybridization**
+  DNA or RNA molecules can bind to complementary sequences. This principle is used in southern, northern blotting, and fluorescence in situ hybridization (FISH).
+- **Protein affinity recognization**
+  Proteins are often detected by antibodies that recognize specific targets. Examples include western blotting and ELISA, and imaging methods such as
+  immunofluorescence (IF).
 
-These methods evolved into **Microarray**, where thousands of probes are fixed on a chip. When labeled DNA or RNA binds to these probes.
+These concepts scale to high throughput in **microarrays** (e.g., expression arrays, SNP arrays, DNA methylation arrays) and many **spatial omics** platforms that use large sets of probes to label molecules in tissues.
 
-(2) Sequencing-based Methods
+(2) Sequencing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Sequencing-based methods** determine the **sequence** of nucleotides in DNA or RNA molecules to analyze genetic and transcriptional information.
+**Sequencing** read the order of nucleotides in DNA or RNA, enabling the measurement of genetic variation, gene expression, and regulatory features. 
 
-- **Sanger sequencing** uses dideoxynucleotide (ddNTP) chain termination to read DNA sequences. It is highly accurate and still used for small-scale validation.
+- **Sanger sequencing** uses dideoxynucleotide (ddNTP) chain termination to generate fragments that reveal the DNA sequence. It is highly accurate and still used for small-scale validation.
 
-- **Next-Generation Sequencing (NGS)** uses sequencing-by-synthesis with fluorescently labeled reversible terminators to generate millions of short reads in parallel.
+- **Next-generation sequencing (NGS)** uses sequencing-by-synthesis with fluorescently labeled reversible terminators to generate millions of short reads in parallel.
 
-- **Third-Generation Sequencing (TGS)** introduced long-read, single-molecule sequencing, represented by **PacBio SMRT** and **Oxford Nanopore** platforms.
+- **Third-generation sequencing (TGS)** introduced long-read, single-molecule sequencing, represented by **PacBio SMRT** and **Oxford Nanopore** platforms.
 
     - **PacBio SMRT** detects fluorescent flashes in real time inside nanoscopic chambers, allowing continuous observation of DNA synthesis on individual molecules.
 
     - **Oxford Nanopore** measures ionic current changes as DNA or RNA molecules pass through a nanopore, which also enables the detection of nucleotide modifications such as methylation.
 
-(3) Spectrometry-based Methods
+(3) Spectrometry-based methods
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Spectrometry-based methods** identify and quantify molecules by their **physical properties**, such as mass/charge ratio or magnetic resonance.
 
-- **Mass Spectrometry** (MS) detects ionized molecules by their mass/charge ratio (m/z), typically using LC-MS (Liquid Chromatography–Mass Spectrometry) or GC-MS (Gas Chromatography–Mass Spectrometry), with ionization sources such as ESI (Electrospray Ionization) and MALDI (Matrix-Assisted Laser Desorption/Ionization).
+- **Mass spectrometry (MS)** detects ionized molecules by their mass/charge ratio (m/z), typically coupled to chromatography: **liquid chromatography–mass spectrometry (LC-MS)** or **gas chromatography–mass spectrometry (GC-MS)**, with ionization sources such as **electrospray ionization (ESI)** and **matrix-assisted laser desorption/onization (MALDI)**.
 
 - **NMR Spectroscopy** measures the magnetic behavior of atomic nuclei to determine molecular structure, composition, and concentration.
 
 ----------------------------------------------
-Single-Cell and Spatial Omics Technologies
+Single-cell and spatial omics
 ----------------------------------------------
 
-To capture both single cell information and spatial organization, single-cell and spatial omics technologies have been developed based on three main strategies: **physical separation**, **molecular indexing**, and **image-based detection**. Each approach enables the profiling of individual cells or spatial regions within tissues while preserving biological context.
+To capture both single cell information and spatial organization, single-cell and spatial omics have been developed based on three main strategies: **physical separation**, **molecular indexing**, and **image-based detection**. Each approach enables the profiling of individual cells or spatial regions within tissues while preserving biological context.
 
-(1) Physical Separation
+(1) Physical separation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Physical separation methods isolate individual cells or specific tissue regions before molecular profiling.
 
-- Single cells can be manually picked using a **micropipette** or sorted automatically using **FACS** (*Fluorescence-Activated Cell Sorting*), which separates cells based on fluorescent markers. (eg. smart-seq)
+- Single cells can be manually picked using a **micropipette** or sorted automatically using **fluorescence-activated cell sorting(FACS)**, which separates cells based on fluorescent markers. (eg. palte-based protocol such as smart-seq)
 
-- For spatially defined sampling, **LMD** (*laser microdissection*) is used to precisely cut and collect cells or regions from tissue sections under a microscope. (eg. Nanostring GeoMx.)
+- For spatially defined sampling, **laser microdissection(LMD)** is used to precisely cut and collect cells or regions from tissue sections under a microscope. (eg. Nanostring GeoMx)
 
-(2) Single-Cell and Spatial Indexing
+(2) Single-cell and spatial indexing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In high-throughput single-cell and spatial assays, each cell or tissue position is labeled with a unique barcode that records its identity or spatial coordinates. During library preparation, these barcodes enable molecules from many cells or regions to be pooled together for sequencing and later separated computationally.
 
-- **Microfluidic droplet barcoding** encapsulate individual cell with barcoded beads inside tiny droplets. Each droplet serves as an isolated reaction chamber, where all molecules from that cell are labeled with a unique cellular barcode before sequencing. (eg. 10x Chromium and Drop-seq.)
+- **Droplet microfluidics barcoding**: individual cells are encapsulated with barcoded beads in droplets, creating isolated reaction chambers. Molecules from the same cell receive a shared **cell barcode** (often plus unique molecular identifiers, UMIs). (eg. 10x Chromium and Drop-seq.).
 
-- **Combinatorial indexing** applies a split-and-pool strategy, in which cells or nuclei undergo repeated rounds of barcoding across wells or plates. Each round adds a new barcode, and the unique combination of these barcodes identifies the cell of origin. (eg. sci-RNA-seq, sci-ATAC-seq, and SHARE-seq.)
+- **Combinatorial indexing**: cells or nuclei undergo repeated rounds of split-and-pool barcoding across wells. The unique combination of barcodes identifies the cell of origin. (eg. sci-RNA-seq, sci-ATAC-seq, and SHARE-seq.)
 
-- **Spatial barcoding** use a slide carries a predefined barcode that records spatial coordinates, allowing gene expression to be mapped directly back to its original tissue structure. (eg. Slide-seq, 10X Visium, and Stereo-seq.)
+- **Spatial barcoding**: tissue sections are placed on barcoded surfaces so that captured molecules inherit location information. (eg. Slide-seq, 10X Visium, and Stereo-seq.)
 
-(3) Image-based Methods
+(3) Image-based methods
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Image-based methods directly visualize molecular features within intact cells or tissues using **high-resolution microscopy** combined with **multiplexed labeling**, enabling simultaneous measurement of molecular identity, abundance, and localization within their native tissue context (eg. seqFISH, MERFISH and CODEX). Image-based methods usually involves **cell segmentation** algorithms in data analysis.
+Image-based approaches measure molecular features in situ using multiplexed labeling and microscopy, preserving cellular and tissue architecture. (eg. seqFISH, MERFISH, 10X Xenium and CODEX) Downstream analysis often involves **cell segmentation** and **spatial statistics** to assign signals to cells and quantify spatial patterns.
 
 ----------------------------------------------
-Advances and Integration in Modern Omics
+Advances in modern omics
 ----------------------------------------------
 
-Over the past several decades, omics technologies have transformed from single-target analytical tools into comprehensive, high-throughput platforms that map the molecular landscape of living systems. Driven by advances in detection chemistry, microfluidics, imaging, and computational analysis, modern omics enables measurements across multiple molecular layers, scales, and time points.
+Over the past several decades, omics have progressed to comprehensive, high-throughput platforms that map the molecular landscape of living systems. Driven by advances in detection chemistry, microfluidics, imaging, and computational analysis, modern omics enables measurements across multiple molecular layers, scales, and time points.
 
 - From **low-throughput** to **high-throughput**:
-  Early molecular biology methods, such as blotting or Sanger sequencing, analyzed only a few molecules at a time. Modern platforms—including microarrays, Next-Generation Sequencing (NGS), and mass spectrometry can now measure millions of molecular features simultaneously with exceptional sensitivity and precision.
+Classical methods (e.g., blotting and sanger sequencing) quantify a limited number of targets per experiment, whereas modern platforms can profile thousands to millions of features in parallel.
 
-- From **bulk** to **single-cell** and **subcellular** resolution:
-  Traditional bulk assays average signals from populations of cells, obscuring cellular heterogeneity. Single-cell and spatial omics now resolve gene expression, chromatin accessibility, protein abundance, and metabolite profiles at single cell level and even specific subcellular compartments.
+- From **bulk** to **single-cell/subcellular** resolution:
+Bulk assays report population averages. Single-cell and spatial omics revealcelluar heterogeneity in gene expression, chromatin accessibility, protein abundance, and sometimes metabolites, enabling identification of rare populations and spatial microenvironments.
 
-- From **individual omics** to **integrated multi-omics**:
-  Multi-omics strategies, such as combining scRNA-seq with ATAC-seq or integrating proteo-transcriptomics, provide a multidimensional view of cellular regulation by connecting transcriptional, translational, and metabolic processes within the same biological context.
+- From **single omics** to **multi-omics**:
+Combining modalities (e.g., scRNA-seq with ATAC-seq; paired transcriptome–proteome measurements) links regulatory layers and improves mechanistic interpretation by connecting genotype, regulation, and phenotype.
 
 - Incorporating **spatial** and **temporal** dimensions:
-  The next generation of omics technologies preserves spatial architecture and captures molecular dynamics over time. By linking molecular profiles to tissue structure and developmental or disease progression, researchers can reconstruct how cells organize, communicate, and evolve within complex biological systems.
+Next-generation omics preserves spatial architecture and captures molecular dynamics over time. By linking molecular profiles to tissue structure and developmental or disease progression, researchers can reconstruct how cells organize, communicate, and evolve within complex biological systems.
 
-Collectively, these advances mark the transition from molecular biology to systems biology, where diverse molecular data are combined to reveal emergent properties of living systems.
+Collectively, these developments support a shift from descriptive molecular profiling toward systems-level models that explain how molecular networks generate cellular behavior.
