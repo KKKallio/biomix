@@ -41,10 +41,10 @@ These concepts scale to high throughput in **microarrays** (e.g., expression arr
 
     - **Oxford Nanopore** measures ionic current changes as DNA or RNA molecules pass through a nanopore, which also enables the detection of nucleotide modifications such as methylation.
 
-(3) Spectrometry-based methods
+(3) Spectrometry
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Spectrometry-based methods** identify and quantify molecules by their **physical properties**, such as mass/charge ratio or magnetic resonance.
+**Spectrometry** identify and quantify molecules by their **physical properties**, such as mass/charge ratio or magnetic resonance.
 
 - **Mass spectrometry (MS)** detects ionized molecules by their mass/charge ratio (m/z), typically coupled to chromatography: **liquid chromatography–mass spectrometry (LC-MS)** or **gas chromatography–mass spectrometry (GC-MS)**, with ionization sources such as **electrospray ionization (ESI)** and **matrix-assisted laser desorption/onization (MALDI)**.
 
