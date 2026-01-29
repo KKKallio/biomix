@@ -1,2 +1,6 @@
+############
+Introduction
+############
+
 .. toctree::
    introduction
