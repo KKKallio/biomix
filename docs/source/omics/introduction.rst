@@ -86,16 +86,17 @@ Advances in modern omics
 Over the past several decades, omics have progressed to comprehensive, high-throughput platforms that map the molecular landscape of living systems. Driven by advances in detection chemistry, microfluidics, imaging, and computational analysis, modern omics enables measurements across multiple molecular layers, scales, and time points.
 
 .. admonition:: Trend
+
    #. From low-throughput to high-throughput
-   Classical methods (e.g., blotting and sanger sequencing) quantify a limited number of targets per experiment, whereas modern platforms can profile thousands to millions of features in parallel.
+      Classical methods (e.g., blotting and sanger sequencing) quantify a limited number of targets per experiment, whereas modern platforms can profile thousands to millions of features in parallel.
 
    #. From bulk to single-cell/subcellular resolution
-   Bulk assays report population averages. Single-cell and spatial omics reveal celluar heterogeneity in gene expression, chromatin accessibility, protein abundance, and sometimes metabolites, enabling identification of rare populations and spatial microenvironments.
+      Bulk assays report population averages. Single-cell and spatial omics reveal celluar heterogeneity in gene expression, chromatin accessibility, protein abundance, and sometimes metabolites, enabling identification of rare populations and spatial microenvironments.
 
    #. From single omics to multi-omics
-   Combining modalities (e.g., scRNA-seq with ATAC-seq; paired transcriptome–proteome measurements) links regulatory layers and improves mechanistic interpretation by connecting genotype, regulation, and phenotype.
+      Combining modalities (e.g., scRNA-seq with ATAC-seq; paired transcriptome–proteome measurements) links regulatory layers and improves mechanistic interpretation by connecting genotype, regulation, and phenotype.
 
    #. Incorporating spatial and temporal dimensions
-   Modern omics preserves spatial architecture and captures molecular dynamics over time. By linking molecular profiles to tissue structure and developmental or disease progression, researchers can reconstruct how cells organize, communicate, and evolve within complex biological systems.
+      Modern omics preserves spatial architecture and captures molecular dynamics over time. By linking molecular profiles to tissue structure and developmental or disease progression, researchers can reconstruct how cells organize, communicate, and evolve within complex biological systems.
 
 Collectively, these developments support a shift from descriptive molecular profiling toward systems-level models that explain how molecular networks generate cellular behavior.
