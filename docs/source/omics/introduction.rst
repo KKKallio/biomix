@@ -35,8 +35,8 @@ Sequencing
 - Next-generation sequencing (NGS): sequencing-by-synthesis with fluorescently labeled reversible terminators, massively parallel short-read sequencing.
 
 - Third-generation sequencing (TGS): long-read, single-molecule sequencing.
-    ``PacBio SMRT`` detects fluorescent flashes in real time inside nanoscopic chambers, allowing continuous observation of DNA synthesis on individual molecules.
-    ``Oxford Nanopore`` measures ionic current changes as DNA or RNA molecules pass through a nanopore, which also enables the detection of nucleotide modifications such as methylation.
+   ``PacBio SMRT`` detects fluorescent flashes in real time inside nanoscopic chambers, allowing continuous observation of DNA synthesis on individual molecules.
+   ``Oxford Nanopore`` measures ionic current changes as DNA or RNA molecules pass through a nanopore, which also enables the detection of nucleotide modifications such as methylation.
 
 Spectrometry
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
