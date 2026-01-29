@@ -83,7 +83,9 @@ Image-based approaches measure molecular features in situ using multiplexed labe
 Advances in modern omics
 ----------------------------------------------
 
-Over the past several decades, omics have progressed to comprehensive, high-throughput platforms that map the molecular landscape of living systems. Driven by advances in detection chemistry, microfluidics, imaging, and computational analysis, modern omics enables measurements across multiple molecular layers, scales, and time points.
+Over the past several decades, omics have progressed to comprehensive, high-throughput platforms that map the molecular landscape of living systems. 
+
+Driven by advances in detection chemistry, microfluidics, imaging, and computational analysis, modern omics enables measurements across multiple molecular layers, scales, and time points.
 
 .. admonition:: Trend
 
