@@ -7,6 +7,6 @@ Contents
 --------
 
 .. toctree::
-   ：depth: 2
+   ：maxdepth: 2
 
    omics/index
